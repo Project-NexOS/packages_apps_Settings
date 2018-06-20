@@ -330,4 +330,7 @@
     <!-- General -->
     <string name="category_name_gestures">Gestures</string>
 
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 </resources>
