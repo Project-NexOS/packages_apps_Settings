@@ -98,6 +98,7 @@ import com.android.settings.datausage.DataUsageSummary;
 import com.android.settings.datetime.DateTimeSettings;
 import com.android.settings.deletionhelper.AutomaticStorageManagerSettings;
 import com.android.settings.development.DevelopmentSettingsDashboardFragment;
+import com.android.settings.development.WirelessDebuggingFragment;
 import com.android.settings.deviceinfo.PrivateVolumeForget;
 import com.android.settings.deviceinfo.PublicVolumeSettings;
 import com.android.settings.deviceinfo.StorageDashboardFragment;
@@ -405,6 +406,7 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
             NexCore.class.getName(),
+            WirelessDebuggingFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -452,5 +454,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.NexCoreActivity.class.getName(),
+            Settings.WirelessDebuggingActivity.class.getName(),
     };
 }

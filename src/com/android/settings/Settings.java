@@ -503,4 +503,9 @@ public class Settings extends SettingsActivity {
 
     // NexCore Additoon
     public static class NexCoreActivity extends SettingsActivity {}
+
+    /**
+     * Activity for WirelessDebuggingActivity
+     */
+    public static class WirelessDebuggingActivity extends SettingsActivity { /* empty */ }
 }
