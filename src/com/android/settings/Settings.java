@@ -500,4 +500,7 @@ public class Settings extends SettingsActivity {
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
+    // NexCore Additoon
+    public static class NexCoreActivity extends SettingsActivity {}
 }

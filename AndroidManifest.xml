@@ -5311,6 +5311,19 @@
             </intent-filter>
         </receiver>
 
+        <!-- NexCore -->
+        <activity android:name=".Settings$NexCoreActivity"
+            android:label="@string/nexcore_dash_title"
+            android:icon="@drawable/ic_homepage_nex"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.nex.nexcore.NexCore" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

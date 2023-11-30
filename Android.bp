@@ -55,7 +55,10 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
+        "NexCore/src/**/*.java",
+        "NexCore/src/**/*.kt",
     ],
+    aaptflags: ["--extra-packages com.nex.nexcore"],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
     ],
@@ -64,7 +67,8 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "TouchGestures/res"
+        "TouchGestures/res",
+        "NexCore/res",
     ],
     static_libs: [
         // External dependencies
@@ -114,6 +118,7 @@ android_library {
         "custom-preference",
         "vendor.lineage.fastcharge-V1.0-java",
         "glide",
+        "kotlin-stdlib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
