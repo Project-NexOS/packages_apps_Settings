@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_search_bar_corner_radius">22dp</dimen>
+    <dimen name="card_radius_highlight">22dp</dimen>
+</resources>
