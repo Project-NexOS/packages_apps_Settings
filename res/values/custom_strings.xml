@@ -327,4 +327,7 @@
      <string name="nexcore_dash_title">NexCore</string>
      <string name="nexcore_summary">Simple Customizations!</string>
 
+    <!-- General -->
+    <string name="category_name_gestures">Gestures</string>
+
 </resources>
